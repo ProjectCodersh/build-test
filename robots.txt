@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mywebsite.com/sitemap.xml
+Sitemap: https://build-test-one.vercel.app/sitemap.xml
