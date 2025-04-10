@@ -45,8 +45,13 @@
 			/* Ensure the text is displayed with fallback fonts until Syne loads */
 		}
 	</style>
-  <script type="module" crossorigin src="/assets/index-GhkR5ksO.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Bgm4jT89.css">
+  <script type="module" crossorigin src="/assets/index-GhkR5ksO.js" defer></script>
+<link rel="preload" as="style" href="/assets/index-Bgm4jT89.css" crossorigin
+	onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+	<link rel="stylesheet" href="/assets/index-Bgm4jT89.css" crossorigin>
+</noscript>
+
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js" defer></script></head>
 
